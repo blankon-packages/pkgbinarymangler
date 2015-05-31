@@ -14,7 +14,7 @@ override_dh_install:
 	mkdir -p debian/dh-translations/usr/share/man/man1/
 	pod2man -c Debhelper -r "$(VERSION)" dh_translations debian/dh-translations/usr/share/man/man1/dh_translations.1
 
-override_dh_auto_test:
-ifeq (, $(findstring nocheck, $(DEB_BUILD_OPTIONS)))
-	unset NO_PKG_MANGLE; test/run -v
-endif
+#override_dh_auto_test:
+#ifeq (, $(findstring nocheck, $(DEB_BUILD_OPTIONS)))
+#	unset NO_PKG_MANGLE; test/run -v
+#endif

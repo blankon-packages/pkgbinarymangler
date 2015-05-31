@@ -1,6 +1,7 @@
 pkgbinarymangler (121blankon1) tambora; urgency=medium
 
-  * Import from Ubuntu 
+  * Import from Ubuntu
+  * Disbale dh_auto_test
 
  -- Mahyuddin <yudi.al@gmail.com>  Sun, 31 May 2015 18:28:27 +0700
 
